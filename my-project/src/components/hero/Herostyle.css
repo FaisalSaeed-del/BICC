@@ -1,0 +1,5 @@
+.hero{
+    background-image:linear-gradient(171.36deg, #101820 6.6%, rgba(16, 24, 32, 0) 108.58%), url(../../assets/images/Header\ image.png);
+    
+    background-size: cover;
+}

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.container{
+  @apply max-w-[1330px] mx-auto px-[15px];
+}
+.card{
+
+box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.25);
+border-radius: 53px;
+}
+.textgradient{
+  background:linear-gradient(270.04deg, #DDD9D7 2.49%, rgba(16, 24, 32, 0) 93.35%);
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+}
+.para{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+}
+.txt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 121.19%;
+/* or 24px */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.btntext{
+ background: linear-gradient(91.48deg, #101820 -1.66%, #EC008C 105.98%);
+border-radius: 7px;
+}
+.bordertxt{
+  border-color: linear-gradient(91.48deg, #101820 -1.66%, #EC008C 105.98%);;
+}
+.items{
+  background: #DDD9D7;
+}
+.abouttxt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+}
+
+.itemstxt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
